@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <title>Panda Luck - Sorteador de nomes</title>
+    <link rel="icon" href="assets/image.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="titulo-central">
+        <h1 class="titulo-central h1">Panda Luck 🐼 </h1>
+        <p class="titulo-central p">Bem-vindo ao Panda Luck! Prepare-se para a sorte! O Panda está pronto para o próximo
+            sorteio..</p>
+    </header>
+
+    <main>
+        <section id="adicionar-nome">
+            <input type="text" id="nome-input" class="input-nome" placeholder="Digite o nome">
+            <button id="btn-adicionar" class="btn-adicionar">Adicionar</button>
+
+            <div id="controle-repetir-nome">
+                <label for="repetir-nome">Repetir Nome:</label>
+                <label class="switch">
+                    <input type="checkbox" id="repetir-nome">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </section>
+
+        <section id="historico-nomes">
+            <ol id="lista-nomes"></ol>
+        </section>
+
+        <section id="botao-sortear">
+            <button id="btn-sortear" class="btn-sortear">Sortear</button>
+        </section>
+
+        <div id="video-container">
+            <video id="countdown-video" src="video/contagem regressiva 2.mp4" autoplay></video>
+        </div>
+
+        <div id="resultado-container">
+            <section id="nome-sorteado">
+                <p id="nome-resultado">Nome Sorteado</p>
+            </section>
+            <button id="btn-retornar">Retornar</button>
+        </div>
+    </main>
+
+    <footer id="rodape">
+        
+        <section class="rodape_texto" >
+            <p>© 2025 Panda Luck 🐼. Todos os direitos reservados.</p>
+            <p>Desenvolvido por Lucas Alves.</p>
+
+        </section>
+
+    </footer>
+
+    <script src="main.js"></script>
+    
+</body>
+
+</html>
